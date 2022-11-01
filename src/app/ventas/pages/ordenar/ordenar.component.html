@@ -1,0 +1,12 @@
+<div class="text-layout">
+    <h1>Pipes personalizados</h1>
+    <p>
+        Pipes creados por {{ 'nosotros' | mayusculas: enMayusculas}}
+    </p>
+</div>
+
+<button pButton 
+label="toggle mayúsculas"
+class="mr-1 button-warning"
+(click)="cambiar()">
+</button>
